@@ -1,0 +1,44 @@
+{
+  "name": "@lucaterribili/ngx-map",
+  "version": "1.0.0",
+  "description": "Angular standalone map components on top of Leaflet: typed markers, template popups, location picker and routing. No runtime dependencies besides Leaflet.",
+  "keywords": [
+    "angular",
+    "leaflet",
+    "map",
+    "markers",
+    "standalone",
+    "signals",
+    "ssr",
+    "routing",
+    "geolocation"
+  ],
+  "license": "MIT",
+  "author": "Luca Terribili",
+  "peerDependencies": {
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12"
+  },
+  "peerDependenciesMeta": {
+    "leaflet-routing-machine": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaterribili/ngx-map.git"
+  },
+  "homepage": "https://github.com/lucaterribili/ngx-map#readme",
+  "bugs": {
+    "url": "https://github.com/lucaterribili/ngx-map/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
