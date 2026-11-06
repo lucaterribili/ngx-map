@@ -1,6 +1,6 @@
 {
   "name": "@lucaterribili/ngx-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular standalone map components on top of Leaflet: typed markers, template popups, location picker and routing. No runtime dependencies besides Leaflet.",
   "keywords": [
     "angular",

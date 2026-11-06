@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Fix: la mappa finiva sopra header e menu sticky/fixed dell'app durante lo scroll (i pannelli di Leaflet hanno `z-index` fino a 1000). `ngx-map` e `ngx-map-picker` ora creano un proprio stacking context (`isolation: isolate`).
+
 ## 1.0.0
 
 Prima versione stabile.

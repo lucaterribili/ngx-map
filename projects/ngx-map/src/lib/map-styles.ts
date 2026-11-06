@@ -1,5 +1,6 @@
 export const NGX_MAP_STYLES = `
-ngx-map, ngx-map-picker { display: block; }
+/* isolation: i pannelli di Leaflet hanno z-index fino a 1000 e non devono finire sopra header o menu dell'app */
+ngx-map, ngx-map-picker { display: block; isolation: isolate; }
 .ngx-map-container { width: 100%; height: 100%; min-height: 200px; }
 .ngx-map-marker { background: none; border: 0; }
 .ngx-map-pin {
